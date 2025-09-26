@@ -1,0 +1,70 @@
+.Centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.semafaro{
+    width: 300px;
+    height: 530px;
+    background-color: black;
+    border-radius: 20px;
+}
+.circulo-vermelho{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 100px;
+    margin: 20px auto;
+
+    opacity: 0.3;
+}
+.circulo-amarelo{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 100px;
+    margin: 20px auto;
+
+    opacity: 0.3;
+}
+.circulo-verde{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 100px;
+    margin: 20px auto;
+
+    opacity: 0.3;
+}
+
+
+
+.jogador{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    background-color: rgb(60, 60, 60);
+    border: solid 2px black;
+}
+
+.Placar{
+    background-color: salmon;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Botao{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(21, 255, 0);
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

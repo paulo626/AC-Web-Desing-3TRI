@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC-Web</title>
+    <link rel="stylesheet" href="styte.css">
+</head>
+<body>
+    <div class="Centralizar">
+        <div onclick="Mudarcor()" class="semafaro">
+            <div id="Vermelho" class="circulo-vermelho"></div>
+            <div id="Amarelo" class="circulo-amarelo"></div>
+            <div id="Verde" class="circulo-verde"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="Centralizar">
+        <div class="Placar">
+            <div>
+                <p>jogador1(Q)  </p>
+                <p id="PontosJogador1">0</p>
+            </div>
+            
+            <div>
+                <p>Jogador2(P)   </p>
+                <p id="PontosJogador2">0</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="Centralizar">
+        <div id="Jogador" class="jogador">.</div>
+    </div>
+    <br>
+    <div class="Centralizar">
+        <button class="Botao" onclick="Jogar()">Iniciar</button>
+    </div>
+</body>
+</html>
